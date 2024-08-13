@@ -1,5 +1,5 @@
 <?php
-$connection = new mysqli('localhost', 'root', '', 'youtube');
+$connection = new mysqli('localhost', 'root', '', 'Database Name');
 
 $name = mysqli_real_escape_string($connection, $_POST['name']);
 $email = mysqli_real_escape_string($connection, $_POST['email']);
